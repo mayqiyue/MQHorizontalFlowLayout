@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F14586431ABC1508005B457E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14586421ABC1508005B457E /* main.m */; };
+		F14586461ABC1508005B457E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14586451ABC1508005B457E /* AppDelegate.m */; };
+		F14586491ABC1508005B457E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14586481ABC1508005B457E /* ViewController.m */; };
+		F145864C1ABC1508005B457E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F145864A1ABC1508005B457E /* Main.storyboard */; };
+		F145864E1ABC1508005B457E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F145864D1ABC1508005B457E /* Images.xcassets */; };
+		F14586511ABC1508005B457E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F145864F1ABC1508005B457E /* LaunchScreen.xib */; };
+		F145865D1ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F145865C1ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.m */; };
+		F14586691ABC1542005B457E /* MQHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F14586681ABC1542005B457E /* MQHorizontalFlowLayout.m */; };
+		F159F8941AC191900075A4E1 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F159F8921AC191900075A4E1 /* CollectionViewCell.m */; };
+		F159F8951AC191900075A4E1 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F159F8931AC191900075A4E1 /* CollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F14586571ABC1508005B457E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14586351ABC1507005B457E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F145863C1ABC1508005B457E;
+			remoteInfo = MQHorizontalFlowLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F145863D1ABC1508005B457E /* MQHorizontalFlowLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQHorizontalFlowLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14586411ABC1508005B457E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14586421ABC1508005B457E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F14586441ABC1508005B457E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14586451ABC1508005B457E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14586471ABC1508005B457E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F14586481ABC1508005B457E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F145864B1ABC1508005B457E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F145864D1ABC1508005B457E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F14586501ABC1508005B457E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F14586561ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQHorizontalFlowLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F145865B1ABC1508005B457E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F145865C1ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQHorizontalFlowLayoutDemoTests.m; sourceTree = "<group>"; };
+		F14586671ABC1542005B457E /* MQHorizontalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQHorizontalFlowLayout.h; sourceTree = "<group>"; };
+		F14586681ABC1542005B457E /* MQHorizontalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQHorizontalFlowLayout.m; sourceTree = "<group>"; };
+		F159F8911AC191900075A4E1 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		F159F8921AC191900075A4E1 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		F159F8931AC191900075A4E1 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F145863A1ABC1508005B457E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14586531ABC1508005B457E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F14586341ABC1507005B457E = {
+			isa = PBXGroup;
+			children = (
+				F145863F1ABC1508005B457E /* MQHorizontalFlowLayoutDemo */,
+				F14586591ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests */,
+				F145863E1ABC1508005B457E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F145863E1ABC1508005B457E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F145863D1ABC1508005B457E /* MQHorizontalFlowLayoutDemo.app */,
+				F14586561ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F145863F1ABC1508005B457E /* MQHorizontalFlowLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F14586661ABC1542005B457E /* MQHorizontalFlowLayout */,
+				F14586441ABC1508005B457E /* AppDelegate.h */,
+				F14586451ABC1508005B457E /* AppDelegate.m */,
+				F14586471ABC1508005B457E /* ViewController.h */,
+				F14586481ABC1508005B457E /* ViewController.m */,
+				F145864A1ABC1508005B457E /* Main.storyboard */,
+				F145864D1ABC1508005B457E /* Images.xcassets */,
+				F145864F1ABC1508005B457E /* LaunchScreen.xib */,
+				F14586401ABC1508005B457E /* Supporting Files */,
+				F159F8911AC191900075A4E1 /* CollectionViewCell.h */,
+				F159F8921AC191900075A4E1 /* CollectionViewCell.m */,
+				F159F8931AC191900075A4E1 /* CollectionViewCell.xib */,
+			);
+			path = MQHorizontalFlowLayoutDemo;
+			sourceTree = "<group>";
+		};
+		F14586401ABC1508005B457E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14586411ABC1508005B457E /* Info.plist */,
+				F14586421ABC1508005B457E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F14586591ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F145865C1ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.m */,
+				F145865A1ABC1508005B457E /* Supporting Files */,
+			);
+			path = MQHorizontalFlowLayoutDemoTests;
+			sourceTree = "<group>";
+		};
+		F145865A1ABC1508005B457E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F145865B1ABC1508005B457E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F14586661ABC1542005B457E /* MQHorizontalFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F14586671ABC1542005B457E /* MQHorizontalFlowLayout.h */,
+				F14586681ABC1542005B457E /* MQHorizontalFlowLayout.m */,
+			);
+			path = MQHorizontalFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F145863C1ABC1508005B457E /* MQHorizontalFlowLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14586601ABC1508005B457E /* Build configuration list for PBXNativeTarget "MQHorizontalFlowLayoutDemo" */;
+			buildPhases = (
+				F14586391ABC1508005B457E /* Sources */,
+				F145863A1ABC1508005B457E /* Frameworks */,
+				F145863B1ABC1508005B457E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQHorizontalFlowLayoutDemo;
+			productName = MQHorizontalFlowLayoutDemo;
+			productReference = F145863D1ABC1508005B457E /* MQHorizontalFlowLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14586551ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14586631ABC1508005B457E /* Build configuration list for PBXNativeTarget "MQHorizontalFlowLayoutDemoTests" */;
+			buildPhases = (
+				F14586521ABC1508005B457E /* Sources */,
+				F14586531ABC1508005B457E /* Frameworks */,
+				F14586541ABC1508005B457E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14586581ABC1508005B457E /* PBXTargetDependency */,
+			);
+			name = MQHorizontalFlowLayoutDemoTests;
+			productName = MQHorizontalFlowLayoutDemoTests;
+			productReference = F14586561ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14586351ABC1507005B457E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = mayqiyue;
+				TargetAttributes = {
+					F145863C1ABC1508005B457E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F14586551ABC1508005B457E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F145863C1ABC1508005B457E;
+					};
+				};
+			};
+			buildConfigurationList = F14586381ABC1507005B457E /* Build configuration list for PBXProject "MQHorizontalFlowLayoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14586341ABC1507005B457E;
+			productRefGroup = F145863E1ABC1508005B457E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F145863C1ABC1508005B457E /* MQHorizontalFlowLayoutDemo */,
+				F14586551ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F145863B1ABC1508005B457E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F145864C1ABC1508005B457E /* Main.storyboard in Resources */,
+				F14586511ABC1508005B457E /* LaunchScreen.xib in Resources */,
+				F159F8951AC191900075A4E1 /* CollectionViewCell.xib in Resources */,
+				F145864E1ABC1508005B457E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14586541ABC1508005B457E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14586391ABC1508005B457E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14586491ABC1508005B457E /* ViewController.m in Sources */,
+				F159F8941AC191900075A4E1 /* CollectionViewCell.m in Sources */,
+				F14586691ABC1542005B457E /* MQHorizontalFlowLayout.m in Sources */,
+				F14586461ABC1508005B457E /* AppDelegate.m in Sources */,
+				F14586431ABC1508005B457E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14586521ABC1508005B457E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F145865D1ABC1508005B457E /* MQHorizontalFlowLayoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F14586581ABC1508005B457E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F145863C1ABC1508005B457E /* MQHorizontalFlowLayoutDemo */;
+			targetProxy = F14586571ABC1508005B457E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F145864A1ABC1508005B457E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F145864B1ABC1508005B457E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F145864F1ABC1508005B457E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14586501ABC1508005B457E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F145865E1ABC1508005B457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F145865F1ABC1508005B457E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14586611ABC1508005B457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQHorizontalFlowLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F14586621ABC1508005B457E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQHorizontalFlowLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F14586641ABC1508005B457E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQHorizontalFlowLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQHorizontalFlowLayoutDemo.app/MQHorizontalFlowLayoutDemo";
+			};
+			name = Debug;
+		};
+		F14586651ABC1508005B457E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MQHorizontalFlowLayoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQHorizontalFlowLayoutDemo.app/MQHorizontalFlowLayoutDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14586381ABC1507005B457E /* Build configuration list for PBXProject "MQHorizontalFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F145865E1ABC1508005B457E /* Debug */,
+				F145865F1ABC1508005B457E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14586601ABC1508005B457E /* Build configuration list for PBXNativeTarget "MQHorizontalFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14586611ABC1508005B457E /* Debug */,
+				F14586621ABC1508005B457E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14586631ABC1508005B457E /* Build configuration list for PBXNativeTarget "MQHorizontalFlowLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14586641ABC1508005B457E /* Debug */,
+				F14586651ABC1508005B457E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14586351ABC1507005B457E /* Project object */;
+}
