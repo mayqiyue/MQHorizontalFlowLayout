@@ -20,3 +20,9 @@ To use the MQHorizontalFlowLayout class in an app, just drag the MQHorizontalFlo
 
     @property (assign, nonatomic) NSInteger columnCount;
  This property defines the number of column per page! And default is 3!
+
+
+##contact
+
+If you have any problem, just contact with me: xu20121013@gmail.com! I would pleasure for that!     
+And here is one of my app used MQHorizontalFlowLayout: [SweetSounds](https://itunes.apple.com/app/id952649748)
